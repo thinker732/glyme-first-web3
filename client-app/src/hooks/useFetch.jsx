@@ -5,14 +5,14 @@ const TEST=import.meta.env.VITE_TEST;
 
 const useFetch =({keyword})=>{
 
-    //console.log(TEST)
+    
     const [gifUrl,setGifUrl]=useState("");
     const ENDPOINT=`https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&limit=1&offset=0&rating=g&lang=en`
 
     const fetchGifs = async()=>{
 
         try {
-           // console.log(`${ENDPOINT}&q=${keyword.split(" ").join("")}`)
+           
             const response=await fetch(`${ENDPOINT}&q=${keyword.split(" ").join("")}`)
 
             const {data}=await response.json();
