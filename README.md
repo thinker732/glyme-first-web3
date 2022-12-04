@@ -4,7 +4,7 @@
 
 ## Description
 
-It's basically a platform build on to allow you to send transactions with messages and keeps them 
+It's basically a platform build to allow you to send transactions with messages and keeps them 
 
 ## Team
 
